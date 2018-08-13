@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl">
+        <methods>
+          <include name="P19"/>
+          <include name="P3"/>
+          <include name="P11"/>
+          <include name="P18"/>
+          <include name="P12"/>
+          <include name="P15"/>
+          <include name="P17"/>
+          <include name="P16"/>
+          <include name="P10"/>
+          <include name="P8"/>
+          <include name="P9"/>
+          <include name="P25"/>
+          <include name="TableControlRuntimeProperties"/>
+          <include name="P7"/>
+          <include name="P1"/>
+          <include name="P2"/>
+          <include name="P4"/>
+          <include name="P5"/>
+          <include name="P6"/>
+          <include name="P22"/>
+          <include name="P24"/>
+          <include name="P23"/>
+          <include name="P21"/>
+          <include name="P14"/>
+          <include name="P20"/>
+        </methods>
+      </class> <!-- com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

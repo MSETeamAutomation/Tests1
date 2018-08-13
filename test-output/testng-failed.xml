@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [M008]">
+  <parameter name="Platform" value="Desktop"/>
+  <parameter name="Theme" value="native"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="RightsUserDataNotSentToClient(failed)">
+    <classes>
+      <class name="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl">
+        <methods>
+          <include name="P3"/>
+          <include name="TableControlRuntimeProperties"/>
+          <include name="P1"/>
+          <include name="P24"/>
+          <include name="P12"/>
+          <include name="P2"/>
+          <include name="P23"/>
+          <include name="Stop"/>
+        </methods>
+      </class> <!-- com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl -->
+    </classes>
+  </test> <!-- RightsUserDataNotSentToClient(failed) -->
+</suite> <!-- Failed suite [M008] -->

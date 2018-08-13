@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="24" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="M008" duration-ms="54055" started-at="2018-08-02T12:18:45Z" finished-at="2018-08-02T12:19:39Z">
+    <groups>
+    </groups>
+    <test name="RightsUserDataNotSentToClient" duration-ms="54055" started-at="2018-08-02T12:18:45Z" finished-at="2018-08-02T12:19:39Z">
+      <class name="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl">
+        <test-method status="PASS" signature="TableControlRuntimeProperties(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="TableControlRuntimeProperties" is-config="true" duration-ms="6999" started-at="2018-08-02T12:18:45Z" finished-at="2018-08-02T12:18:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[native]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableControlRuntimeProperties -->
+        <test-method status="FAIL" signature="P1()[pri:1, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P1" duration-ms="569" started-at="2018-08-02T12:18:52Z" finished-at="2018-08-02T12:18:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[RadioControl does not display correctly expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: RadioControl does not display correctly expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P1(RadioControl.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P1 -->
+        <test-method status="FAIL" signature="P2()[pri:2, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P2" duration-ms="549" started-at="2018-08-02T12:18:53Z" finished-at="2018-08-02T12:18:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiple RadioControls does not display correctly expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiple RadioControls does not display correctly expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P2(RadioControl.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P2 -->
+        <test-method status="FAIL" signature="P3()[pri:3, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P3" duration-ms="524" started-at="2018-08-02T12:18:53Z" finished-at="2018-08-02T12:18:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiple RadioControls having data attached does not display correctly expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiple RadioControls having data attached does not display correctly expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P3(RadioControl.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P3 -->
+        <test-method status="PASS" signature="P4()[pri:4, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P4" duration-ms="328" started-at="2018-08-02T12:18:54Z" finished-at="2018-08-02T12:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P4 -->
+        <test-method status="PASS" signature="P5()[pri:5, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P5" duration-ms="365" started-at="2018-08-02T12:18:54Z" finished-at="2018-08-02T12:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P5 -->
+        <test-method status="PASS" signature="P6()[pri:6, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P6" duration-ms="569" started-at="2018-08-02T12:18:55Z" finished-at="2018-08-02T12:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P6 -->
+        <test-method status="PASS" signature="P7()[pri:7, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P7" duration-ms="358" started-at="2018-08-02T12:18:55Z" finished-at="2018-08-02T12:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P7 -->
+        <test-method status="PASS" signature="P8()[pri:8, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P8" duration-ms="389" started-at="2018-08-02T12:18:56Z" finished-at="2018-08-02T12:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P8 -->
+        <test-method status="PASS" signature="P9()[pri:9, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P9" duration-ms="379" started-at="2018-08-02T12:18:56Z" finished-at="2018-08-02T12:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P9 -->
+        <test-method status="PASS" signature="P10()[pri:10, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P10" duration-ms="232" started-at="2018-08-02T12:18:56Z" finished-at="2018-08-02T12:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10 -->
+        <test-method status="PASS" signature="P11()[pri:11, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P11" duration-ms="187" started-at="2018-08-02T12:18:57Z" finished-at="2018-08-02T12:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P11 -->
+        <test-method status="FAIL" signature="P12()[pri:12, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P12" duration-ms="5212" started-at="2018-08-02T12:18:57Z" finished-at="2018-08-02T12:19:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div[class='mat-tooltip ng-trigger ng-trigger-state']"}
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'RAVICW10', ip: '10.9.7.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\RAVIND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a0f53fe97f5200d8cb4ffa601145380d
+*** Element info: {Using=css selector, value=div[class='mat-tooltip ng-trigger ng-trigger-state']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='mat-tooltip ng-trigger ng-trigger-state']"}
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'RAVICW10', ip: '10.9.7.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\RAVIND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a0f53fe97f5200d8cb4ffa601145380d
+*** Element info: {Using=css selector, value=div[class='mat-tooltip ng-trigger ng-trigger-state']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at com.magicsoftware.WebAutomation.WebTest.getText(WebTest.java:3863)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P12(RadioControl.java:442)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P12 -->
+        <test-method status="PASS" signature="P14()[pri:13, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P14" duration-ms="314" started-at="2018-08-02T12:19:02Z" finished-at="2018-08-02T12:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P14 -->
+        <test-method status="PASS" signature="P15()[pri:14, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P15" duration-ms="326" started-at="2018-08-02T12:19:02Z" finished-at="2018-08-02T12:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P15 -->
+        <test-method status="PASS" signature="P16()[pri:15, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P16" duration-ms="407" started-at="2018-08-02T12:19:03Z" finished-at="2018-08-02T12:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P16 -->
+        <test-method status="PASS" signature="P17()[pri:16, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P17" duration-ms="12631" started-at="2018-08-02T12:19:03Z" finished-at="2018-08-02T12:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P17 -->
+        <test-method status="PASS" signature="P18()[pri:17, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P18" duration-ms="512" started-at="2018-08-02T12:19:16Z" finished-at="2018-08-02T12:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P18 -->
+        <test-method status="PASS" signature="P19()[pri:18, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P19" duration-ms="671" started-at="2018-08-02T12:19:16Z" finished-at="2018-08-02T12:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P19 -->
+        <test-method status="PASS" signature="P20()[pri:19, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P20" duration-ms="6466" started-at="2018-08-02T12:19:17Z" finished-at="2018-08-02T12:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P20 -->
+        <test-method status="PASS" signature="P21()[pri:20, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P21" duration-ms="6396" started-at="2018-08-02T12:19:23Z" finished-at="2018-08-02T12:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P21 -->
+        <test-method status="PASS" signature="P22()[pri:21, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P22" duration-ms="1" started-at="2018-08-02T12:19:30Z" finished-at="2018-08-02T12:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P22 -->
+        <test-method status="FAIL" signature="P23()[pri:22, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P23" duration-ms="597" started-at="2018-08-02T12:19:30Z" finished-at="2018-08-02T12:19:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[RadioControl does not display correctly expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: RadioControl does not display correctly expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P23(RadioControl.java:1027)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P23 -->
+        <test-method status="FAIL" signature="P24()[pri:23, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P24" duration-ms="532" started-at="2018-08-02T12:19:30Z" finished-at="2018-08-02T12:19:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[RadioControl does not display correctly if placed in Subform expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: RadioControl does not display correctly if placed in Subform expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P24(RadioControl.java:1043)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P24 -->
+        <test-method status="PASS" signature="P25()[pri:24, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="P25" duration-ms="6413" started-at="2018-08-02T12:19:31Z" finished-at="2018-08-02T12:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P25 -->
+        <test-method status="PASS" signature="Stop()[pri:0, instance:com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl@7a3d45bd]" name="Stop" is-config="true" duration-ms="2070" started-at="2018-08-02T12:19:37Z" finished-at="2018-08-02T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stop -->
+      </class> <!-- com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl -->
+    </test> <!-- RightsUserDataNotSentToClient -->
+  </suite> <!-- M008 -->
+</testng-results>

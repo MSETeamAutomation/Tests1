@@ -1,0 +1,4 @@
+Project,%MGW_Project%\RadioControl\RadioControl.edp
+Import,%MGW_Test%\M008\RadioControl\MGW10_Export\RadioControl.xml, OverwriteMainProgram = Y OverwritePulldownMenu = Y OverwriteContextMenu = Y
+ECF, %MGW_Project%\RadioControl\RadioControl.ecf
+Project,%MGW_Project%\Dummy\Dummy.edp

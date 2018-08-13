@@ -1,0 +1,10 @@
+<suite name="M008">
+   <parameter name="Platform" value="Desktop"/>  
+   <parameter name="Theme" value="native"/>  
+   <parameter name="Browser" value="chrome"/>   
+   <test name="RightsUserDataNotSentToClient">    	
+    <classes>
+      <class name="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl"></class>
+    </classes>
+  </test>
+</suite>	

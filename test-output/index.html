@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-M008">
+              <span class="suite-name border-failed">M008</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-M008">
+                    <span>T:\WebClient\Tests\M008\M008.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-M008">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-M008">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-M008">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-M008">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-M008">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-M008">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 6 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-M008" class="hide-methods failed suite-M008"> (hide)</a> <!-- hide-methods failed suite-M008 -->
+                      <a href="#" panel-name="suite-M008" class="show-methods failed suite-M008"> (show)</a> <!-- show-methods failed suite-M008 -->
+                    </span>
+                    <div class="method-list-content failed suite-M008">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P1">P1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P12">P12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P2">P2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P23">P23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P24">P24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P3">P3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-M008 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-M008" class="hide-methods passed suite-M008"> (hide)</a> <!-- hide-methods passed suite-M008 -->
+                      <a href="#" panel-name="suite-M008" class="show-methods passed suite-M008"> (show)</a> <!-- show-methods passed suite-M008 -->
+                    </span>
+                    <div class="method-list-content passed suite-M008">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P10">P10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P11">P11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P14">P14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P15">P15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P16">P16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P17">P17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P18">P18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P19">P19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P20">P20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P21">P21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P22">P22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P25">P25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P4">P4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P5">P5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P6">P6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P7">P7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P8">P8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-M008" title="com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl" hash-for-method="P9">P9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-M008 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-M008" class="panel M008">
+          <div class="suite-M008-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="P1">
+                  </a> <!-- P1 -->
+                  <span class="method-name">P1</span>
+                  <div class="stack-trace">java.lang.AssertionError: RadioControl does not display correctly expected [true] but found [false]
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P1(RadioControl.java:77)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P12">
+                  </a> <!-- P12 -->
+                  <span class="method-name">P12</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&apos;mat-tooltip ng-trigger ng-trigger-state&apos;]&quot;}
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;RAVICW10&apos;, ip: &apos;10.9.7.140&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\RAVIND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a0f53fe97f5200d8cb4ffa601145380d
+*** Element info: {Using=css selector, value=div[class=&apos;mat-tooltip ng-trigger ng-trigger-state&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at com.magicsoftware.WebAutomation.WebTest.getText(WebTest.java:3863)
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P12(RadioControl.java:442)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P2">
+                  </a> <!-- P2 -->
+                  <span class="method-name">P2</span>
+                  <div class="stack-trace">java.lang.AssertionError: Multiple RadioControls does not display correctly expected [true] but found [false]
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P2(RadioControl.java:93)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P23">
+                  </a> <!-- P23 -->
+                  <span class="method-name">P23</span>
+                  <div class="stack-trace">java.lang.AssertionError: RadioControl does not display correctly expected [true] but found [false]
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P23(RadioControl.java:1027)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P24">
+                  </a> <!-- P24 -->
+                  <span class="method-name">P24</span>
+                  <div class="stack-trace">java.lang.AssertionError: RadioControl does not display correctly if placed in Subform expected [true] but found [false]
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P24(RadioControl.java:1043)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P3">
+                  </a> <!-- P3 -->
+                  <span class="method-name">P3</span>
+                  <div class="stack-trace">java.lang.AssertionError: Multiple RadioControls having data attached does not display correctly expected [true] but found [false]
+	at com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl.P3(RadioControl.java:109)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-M008-class-failed -->
+          <div class="suite-M008-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="P10">
+                  </a> <!-- P10 -->
+                  <span class="method-name">P10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P11">
+                  </a> <!-- P11 -->
+                  <span class="method-name">P11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P14">
+                  </a> <!-- P14 -->
+                  <span class="method-name">P14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P15">
+                  </a> <!-- P15 -->
+                  <span class="method-name">P15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P16">
+                  </a> <!-- P16 -->
+                  <span class="method-name">P16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P17">
+                  </a> <!-- P17 -->
+                  <span class="method-name">P17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P18">
+                  </a> <!-- P18 -->
+                  <span class="method-name">P18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P19">
+                  </a> <!-- P19 -->
+                  <span class="method-name">P19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P20">
+                  </a> <!-- P20 -->
+                  <span class="method-name">P20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P21">
+                  </a> <!-- P21 -->
+                  <span class="method-name">P21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P22">
+                  </a> <!-- P22 -->
+                  <span class="method-name">P22</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P25">
+                  </a> <!-- P25 -->
+                  <span class="method-name">P25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P4">
+                  </a> <!-- P4 -->
+                  <span class="method-name">P4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P5">
+                  </a> <!-- P5 -->
+                  <span class="method-name">P5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P6">
+                  </a> <!-- P6 -->
+                  <span class="method-name">P6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P7">
+                  </a> <!-- P7 -->
+                  <span class="method-name">P7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P8">
+                  </a> <!-- P8 -->
+                  <span class="method-name">P8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="P9">
+                  </a> <!-- P9 -->
+                  <span class="method-name">P9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-M008-class-passed -->
+        </div> <!-- panel M008 -->
+        <div panel-name="test-xml-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">T:\WebClient\Tests\M008\M008.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;M008&quot;&gt;
+  &lt;parameter name=&quot;Platform&quot; value=&quot;Desktop&quot;/&gt;
+  &lt;parameter name=&quot;Theme&quot; value=&quot;native&quot;/&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RightsUserDataNotSentToClient&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RightsUserDataNotSentToClient --&gt;
+&lt;/suite&gt; &lt;!-- M008 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for M008</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RightsUserDataNotSentToClient (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for M008</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for M008</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_M008');
+function tableData_M008() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'P17')
+data.setCell(0, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(0, 3, 12631);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'P20')
+data.setCell(1, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(1, 3, 6466);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'P25')
+data.setCell(2, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(2, 3, 6413);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'P21')
+data.setCell(3, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(3, 3, 6396);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'P12')
+data.setCell(4, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(4, 3, 5212);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'P19')
+data.setCell(5, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(5, 3, 671);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'P23')
+data.setCell(6, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(6, 3, 597);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'P6')
+data.setCell(7, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(7, 3, 569);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'P1')
+data.setCell(8, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(8, 3, 569);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'P2')
+data.setCell(9, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(9, 3, 549);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'P24')
+data.setCell(10, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(10, 3, 532);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'P3')
+data.setCell(11, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(11, 3, 524);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'P18')
+data.setCell(12, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(12, 3, 512);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'P16')
+data.setCell(13, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(13, 3, 407);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'P8')
+data.setCell(14, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(14, 3, 389);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'P9')
+data.setCell(15, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(15, 3, 379);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'P5')
+data.setCell(16, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(16, 3, 365);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'P7')
+data.setCell(17, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(17, 3, 358);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'P4')
+data.setCell(18, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(18, 3, 328);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'P15')
+data.setCell(19, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(19, 3, 326);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'P14')
+data.setCell(20, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(20, 3, 314);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'P10')
+data.setCell(21, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(21, 3, 232);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'P11')
+data.setCell(22, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(22, 3, 187);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'P22')
+data.setCell(23, 2, 'com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl')
+data.setCell(23, 3, 1);
+window.suiteTableData['M008']= { tableData: data, tableDiv: 'times-div-M008'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-M008">
+              </div> <!-- times-div-M008 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for M008</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-M008" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.magicsoftware.TestAutomation.TestCases.WebClient.RadioControl</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">TableControlRuntimeProperties(chrome, Desktop, native)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P1</span>
+                <span class="method-start">7010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P2</span>
+                <span class="method-start">7584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P3</span>
+                <span class="method-start">8134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P4</span>
+                <span class="method-start">8659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P5</span>
+                <span class="method-start">8988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P6</span>
+                <span class="method-start">9354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P7</span>
+                <span class="method-start">9924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P8</span>
+                <span class="method-start">10283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P9</span>
+                <span class="method-start">10673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P10</span>
+                <span class="method-start">11054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P11</span>
+                <span class="method-start">11287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P12</span>
+                <span class="method-start">11475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P14</span>
+                <span class="method-start">16692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P15</span>
+                <span class="method-start">17007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P16</span>
+                <span class="method-start">17334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P17</span>
+                <span class="method-start">17741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P18</span>
+                <span class="method-start">30374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P19</span>
+                <span class="method-start">30887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P20</span>
+                <span class="method-start">31558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P21</span>
+                <span class="method-start">38026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P22</span>
+                <span class="method-start">44424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P23</span>
+                <span class="method-start">44426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">P24</span>
+                <span class="method-start">45024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">P25</span>
+                <span class="method-start">45557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Stop</span>
+                <span class="method-start">51972 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

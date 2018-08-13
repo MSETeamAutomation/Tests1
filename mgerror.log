@@ -1,0 +1,313 @@
+﻿ <-1> 07/06/2018 16:57:12.094     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 07/06/2018 16:57:12.101     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 07/06/2018 16:57:12.106     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 07/06/2018 17:25:12.882     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 07/06/2018 17:25:12.943     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 07/06/2018 17:25:12.947     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 07/06/2018 17:58:54.425     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 07/06/2018 17:58:54.535     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 07/06/2018 17:58:54.539     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 07/06/2018 18:23:28.104     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 07/06/2018 18:23:28.167     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 07/06/2018 18:23:28.171     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 07/06/2018 18:33:08.944     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 07/06/2018 18:33:08.949     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 07/06/2018 18:33:08.954     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 11:04:31.502     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 11:04:31.530     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 11:04:31.534     [Error  ] - The broker will be terminated when this session will terminate.
+
+==============================================
+PID 4584	11/06/2018 11:06:28
+==============================================
+
+
+ <-1> 11/06/2018 11:07:40.132     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 11:07:40.137     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 11:07:40.141     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 11:36:33.302     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 11:36:33.369     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 11:36:33.374     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 11:46:03.340     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 11:46:03.405     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 11:46:03.409     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 13:36:22.188     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 13:36:22.322     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 13:36:22.327     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 14:08:14.980     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 14:08:14.986     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 14:08:14.992     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 14:16:58.784     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 14:16:58.849     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 14:16:58.910     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 14:29:09.731     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 14:29:09.798     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 14:29:09.803     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 14:42:32.647     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 14:42:32.713     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 14:42:32.719     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 14:55:48.042     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 14:55:48.048     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 14:55:48.054     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 15:05:07.664     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 15:05:07.670     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 15:05:07.675     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 15:20:22.595     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 15:20:22.601     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 15:20:22.606     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 15:32:37.243     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 15:32:37.249     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 15:32:37.254     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 15:42:05.828     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 15:42:05.905     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 15:42:05.910     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 16:04:39.317     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 16:04:39.323     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 16:04:39.328     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 16:14:31.371     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 16:14:31.377     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 16:14:31.382     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 16:22:27.275     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 16:22:27.281     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 16:22:27.288     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 16:33:00.320     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 16:33:00.325     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 16:33:00.330     [Error  ] - The broker will be terminated when this session will terminate.
+
+==============================================
+PID 3220	11/06/2018 16:33:12
+==============================================
+
+
+ <-1> 11/06/2018 16:57:55.283     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 16:57:55.296     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 16:57:55.301     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 17:06:09.852     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 17:06:09.858     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 17:06:09.863     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 17:15:13.166     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 17:15:13.173     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 17:15:13.178     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 17:23:29.706     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 17:23:29.712     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 17:23:29.717     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 17:36:08.914     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 17:36:09.043     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 17:36:09.047     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 17:54:06.951     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 17:54:07.049     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 17:54:07.054     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 18:07:08.997     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 18:07:09.002     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 18:07:09.007     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 18:16:55.944     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 18:16:55.951     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 18:16:55.956     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 11/06/2018 18:46:31.484     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 11/06/2018 18:46:31.490     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 11/06/2018 18:46:31.494     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 09:55:36.858     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 09:55:36.868     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 09:55:36.873     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 10:16:31.338     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 10:16:31.344     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 10:16:31.349     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 10:28:05.161     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 10:28:05.291     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 10:28:05.296     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 10:36:57.025     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 10:36:57.039     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 10:36:57.095     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 13:13:01.277     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 13:13:01.283     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 13:13:01.288     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 13:27:49.882     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 13:27:49.947     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 13:27:49.951     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 13:44:28.120     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 13:44:28.132     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 13:44:28.136     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 15:08:02.540     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 15:08:02.546     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 15:08:02.550     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 15:22:30.161     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 15:22:30.391     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 15:22:30.396     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 15:37:30.172     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 15:37:30.177     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 15:37:30.182     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 16:14:28.670     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 16:14:28.675     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 16:14:28.679     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 12/06/2018 16:22:42.621     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 12/06/2018 16:22:42.626     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 12/06/2018 16:22:42.630     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 09:57:13.142     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 09:57:13.192     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 09:57:13.197     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 10:07:28.365     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 10:07:28.379     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 10:07:28.385     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 10:27:31.300     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 10:27:31.306     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 10:27:31.311     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 10:40:24.353     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 10:40:24.365     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 10:40:24.371     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 10:59:57.815     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 10:59:57.821     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 10:59:57.825     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 11:44:43.741     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 11:44:43.748     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 11:44:43.755     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 12:01:56.411     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 12:01:56.475     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 12:01:56.480     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 12:20:41.595     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 12:20:41.724     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 12:20:41.729     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 12:30:29.846     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 12:30:29.959     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 12:30:29.963     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 13:26:40.536     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 13:26:40.546     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 13:26:40.551     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 13:38:19.582     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 13:38:19.587     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 13:38:19.592     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 14:10:54.687     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 14:10:54.701     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 14:10:54.706     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 14:31:58.545     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 14:31:58.675     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 14:31:58.679     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 14:43:58.437     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 14:43:58.504     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 14:43:58.509     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 14:58:47.554     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 14:58:47.627     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 14:58:47.635     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 15:13:23.812     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 15:13:23.941     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 15:13:23.945     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 15:24:05.120     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 15:24:05.187     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 15:24:05.192     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 15:36:16.598     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 15:36:16.661     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 15:36:16.665     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 15:47:53.271     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 15:47:53.277     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 15:47:53.281     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 15:56:58.020     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 15:56:58.087     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 15:56:58.092     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 16:06:56.184     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 16:06:56.191     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 16:06:56.196     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 16:18:45.153     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 16:18:45.159     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 16:18:45.163     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 16:28:07.936     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 16:28:07.948     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 16:28:07.952     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 16:39:36.205     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 16:39:36.217     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 16:39:36.231     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 17:25:45.248     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 17:25:45.268     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 17:25:45.273     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 13/06/2018 18:24:32.629     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 13/06/2018 18:24:32.635     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 13/06/2018 18:24:32.639     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 09:52:06.261     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 09:52:06.453     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 09:52:06.458     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 10:05:48.133     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 10:05:48.262     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 10:05:48.266     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 10:11:40.714     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 10:11:40.721     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 10:11:40.725     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 10:22:43.706     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 10:22:43.711     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 10:22:43.716     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 10:53:33.830     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 10:53:33.898     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 10:53:33.903     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 11:13:14.814     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 11:13:14.826     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 11:13:14.830     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 11:27:05.225     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 11:27:05.231     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 11:27:05.235     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 13:32:36.374     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 13:32:36.380     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 13:32:36.385     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 13:42:37.523     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 13:42:37.529     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 13:42:37.533     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 13:54:51.383     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 13:54:51.389     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 13:54:51.394     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 14:10:11.458     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 14:10:11.525     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 14:10:11.530     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 14:28:16.534     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 14:28:16.663     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 14:28:16.668     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 14:37:04.292     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 14:37:04.298     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 14:37:04.302     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 14:46:40.153     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 14:46:40.158     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 14:46:40.162     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 15:00:00.859     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 15:00:00.864     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 15:00:00.869     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 15:08:53.211     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 15:08:53.341     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 15:08:53.346     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 15:28:39.687     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 15:28:39.798     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 15:28:39.805     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 15:38:54.346     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 15:38:54.408     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 15:38:54.413     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 15:53:39.425     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 15:53:39.492     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 15:53:39.496     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 16:04:09.855     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 16:04:09.861     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 16:04:09.866     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 16:11:45.081     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 16:11:45.148     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 16:11:45.153     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 16:31:58.617     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 16:31:58.683     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 16:31:58.688     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 16:48:44.413     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 16:48:44.540     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 16:48:44.545     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 17:02:24.023     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 17:02:24.029     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 17:02:24.034     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 17:12:54.471     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 17:12:54.477     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 17:12:54.482     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 17:23:06.089     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 17:23:06.095     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 17:23:06.100     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 17:38:46.048     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 17:38:46.054     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 17:38:46.058     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 14/06/2018 17:48:15.445     [Error  ] - Password for broker "Default Broker" does not match the password in MGRB.INI ,
+ <-1> 14/06/2018 17:48:15.450     [Error  ] - A temporary broker "__internal_broker" was created in the servers table for this session ,
+ <-1> 14/06/2018 17:48:15.456     [Error  ] - The broker will be terminated when this session will terminate.
+ <-1> 22/07/2018 11:24:04.483     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 11:54:09.604     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 11:58:48.273     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 12:25:40.530     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 13:21:22.836     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 13:35:04.346     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)
+ <-1> 22/07/2018 14:17:04.187     [Error  ] - The environment variable JAVA_HOME ("D:\Magic\Java\jdk1.7.0_80") is set to a non-existing folder. (Studio)

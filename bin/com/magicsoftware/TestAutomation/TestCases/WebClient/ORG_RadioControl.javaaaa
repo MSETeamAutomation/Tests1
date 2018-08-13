@@ -1,0 +1,1085 @@
+package com.magicsoftware.TestAutomation.TestCases.WebClient;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.magicsoftware.WebAutomation.WebTest;
+import com.magicsoftware.WebAutomation.Utils.Utilities;
+import com.magicsoftware.WebAutomation.Utils.Utilities.Appearancetype;
+
+public class RadioControl
+{
+	
+	
+	Appearancetype PropertyName;
+	String PropertyValue;
+	WebTest RadioControl;
+	
+	JavascriptExecutor js;
+
+	@Parameters({"Browser","Platform","Theme"})
+	@BeforeClass
+	public void TableControlRuntimeProperties(String Browser,String Platform,String Theme)
+	{
+		RadioControl=new WebTest("RadioControl","M008","Caller","CMD_Param.ini",Platform,Browser,Theme);
+		if(Theme.equals("material"))
+		{
+			
+			PropertyName=Appearancetype.AttributeClass;
+			PropertyValue="checked";
+		}
+		else
+		{
+			PropertyName=Appearancetype.isSelected;
+			PropertyValue="true";
+		}	
+		RadioControl.LaunchBrowser();
+		
+		RadioControl.EnterURL("http://localhost:4200/");
+		RadioControl.PrgCall("Q");
+		RadioControl.WaitForWarningWindowAndCloseIt();
+		
+		RadioControl.PrgCall("Q1");
+		RadioControl.WaitForWarningWindowAndCloseIt();
+		
+
+	}
+
+	@Test(priority=1)
+	public void P1()
+	{
+		RadioControl.PrgCall("P1");
+		if(RadioControl.CompareElementPicture(By.id("k"), "P1"))
+		{
+			
+			Assert.assertTrue(true, "RadioControl displays correctly");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "RadioControl does not display correctly");
+		}
+		
+	}
+	
+	@Test(priority=2)
+	public void P2()
+	{
+		RadioControl.PrgCall("P2");
+		if(RadioControl.CompareElementPicture(By.id("MultipleRadio"), "P2"))
+		{
+			
+			Assert.assertTrue(true, "Multiple RadioControls display correctly");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Multiple RadioControls does not display correctly");
+		}
+		
+	}
+
+	@Test(priority=3)
+	public void P3()
+	{
+		RadioControl.PrgCall("P3");
+		if(RadioControl.CompareElementPicture(By.id("MultipleRadioByData"), "P3"))
+		{
+			
+			Assert.assertTrue(true, "Multiple RadioControls having data attached display correctly");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Multiple RadioControls having data attached does not display correctly");
+		}
+		
+	}
+
+
+	@Test(priority=4)
+	public void P4()
+	{
+		RadioControl.PrgCall("P4");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("kk"));
+		/////RadioControl.ClickElement(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		RadioControl.ClickElement(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		/////System.out.println(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class"));
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		/////System.out.println("P4  "+RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).isSelected());
+
+		if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("checked"))
+		{
+			
+			Assert.assertTrue(true, "Radio control gets selected after clicking");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not get selected after clicking");
+		}	
+		RadioControl.ClickElement(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")));
+	
+		if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class").contains("checked"))
+		{
+			
+			Assert.assertTrue(true, "Radio control gets selected after clicking");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not get selected after clicking");
+		}
+	}
+
+
+	@Test(priority=5)
+	public void P5()
+	{
+		RadioControl.PrgCall("P5");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("a"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"))));
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"))).equals("Ok")&&RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"))).equals("Done")&&RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[3]"))).equals("Cancel"))
+		{
+			
+			Assert.assertTrue(true, "Radio control text displays correctly");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not display correctly");
+		}	
+	
+	
+	
+		
+
+
+	RadioGroup=RadioControl.getWebElement(By.id("c"));
+	/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+	System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"))));
+	/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+	
+	if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"))).equals("Ok")&&RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"))).equals("Done")&&RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[3]"))).equals("Cancel"))
+	{
+		
+		Assert.assertTrue(true, "Radio control text displays correctly in 2nd Radio Group");
+	}	
+	else
+	{
+		Assert.assertTrue(false, "Radio control does not display correctly in 2nd Radio Group");
+	}	
+
+
+
+	}
+
+	
+	@Test(priority=6)
+	public void P6()
+	{
+		RadioControl.PrgCall("P6");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("d"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		
+		for(int i=2;i<=10;i++)
+		{	
+			System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))));
+			if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp "+(i-1)))
+			{
+			
+				Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached");
+			}	
+		}
+	
+		
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[11]"))).equals("Emp10"))
+		{
+		
+			Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached");
+		}	
+
+
+	}	
+	
+
+	@Test(priority=7)
+	public void P7()
+	{
+		RadioControl.PrgCall("P7");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("d"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		
+		for(int i=2;i<=6;i++)
+		{	
+			System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))));
+			if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp "+(i-1)))
+			{
+			
+				Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached and Range is applied");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached and Range is applied");
+			}	
+		}
+	
+		
+	}	
+	
+	
+	@Test(priority=8)
+	public void P8()
+	{
+		RadioControl.PrgCall("P8");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("d"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		
+		for(int i=2;i<=6;i++)
+		{	
+			System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))));
+			if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp "+(i+3)))
+			{
+			
+				Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached and Range is applied through property");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached and Range is applied through property");
+			}	
+		}
+	
+		
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[7]"))).equals("Emp10"))
+		{
+		
+			Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached and Range is applied through property");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached and Range is applied through property");
+		}	
+		
+	}	
+	
+	
+	@Test(priority=9)
+	public void P9()
+	{
+		RadioControl.PrgCall("P9");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("d"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////if(RadioControl.isSelected(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")))==true)
+		
+		for(int i=2;i<=6;i++)
+		{	
+			System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))));
+			if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp "+(i-1)))
+			{
+			
+				Assert.assertTrue(true, "Radio control text displays correctly if Data Source is attached and Range is applied through property");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "Radio control does not display correctly if Data Source is attached and Range is applied through property");
+			}	
+		}
+	
+		
+		
+	}	
+
+
+	@Test(priority=10)
+	public void P10()
+	{
+		RadioControl.PrgCall("P10");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("mm"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////WebElement RadioButton=RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		/////if(RadioControl.iSEnabled(RadioButton)==false)
+		if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("disabled ")&&RadioControl.getAttribute(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class").contains("disabled "))
+		{
+			Assert.assertTrue(true,"Radio control displayed disabled");
+			
+		}	
+		
+		else
+		{
+			
+ 			Assert.assertTrue(false,"Radio control displayed enabled,it should be displayed disabled");
+		}	
+		
+		
+	}	
+
+
+	@Test(priority=11)
+	public void P11()
+	{
+		RadioControl.PrgCall("P11");
+		WebElement RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		RadioGroup=RadioControl.getWebElement(By.id("hh"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////WebElement RadioButton=RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		/////if(RadioControl.iSEnabled(RadioButton)==false)
+		///if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("disabled ")&&RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class").contains("disabled "))
+		if(RadioControl.isDisplayed(RadioGroup))
+		{
+			Assert.assertTrue(true,"1st Radio control displayed Visible");
+			
+		}	
+		
+		else
+		{
+			
+ 			Assert.assertTrue(false,"1st Radio control displayed InVisible");
+		}	
+		
+		
+		/////RadioGroup=RadioControl.getWebElement(By.id("kk"));
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////WebElement RadioButton=RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		/////if(RadioControl.iSEnabled(RadioButton)==false)
+		///if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("disabled ")&&RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class").contains("disabled "))
+		if(RadioControl.isDisplayed(By.id("kk"))==false)
+		{
+			Assert.assertTrue(true,"2nd Radio control displayed InVisible");
+			
+		}	
+		
+		else
+		{
+			
+ 			Assert.assertTrue(false,"2nd Radio control displayed Visible");
+		}
+		
+	}	
+
+	@Test(priority=12)
+	public void P12()
+	{
+		RadioControl.PrgCall("P12");
+		WebElement RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		
+		/////RadioControl.getText(RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")));
+		
+		/////WebElement RadioButton=RadioGroup.findElement(By.xpath("//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		/////if(RadioControl.iSEnabled(RadioButton)==false)
+		///if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("disabled ")&&RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")),"class").contains("disabled "))
+		RadioControl.HoverElement(By.id("sadf"));
+		Utilities.Delay(5000);
+		/////String Tooltip=TableControlRuntimeProperties.getText(By.cssSelector("div[id='cdk-describedby-message-2']"));
+		/////System.out.println(Tooltip);
+		String TooltipText=RadioControl.getText(By.cssSelector(WebTest.WebClient_dict.get("TooltipControlTag")+"[class='"+WebTest.WebClient_dict.get("TooltipControlClass")+"']"));
+		System.out.println(TooltipText);
+		if(TooltipText.equals("'This is by Repository Tooltip'"))
+		/////if(TableControlRuntimeProperties.CompareElementPicture(By.cssSelector("div[class='cdk-overlay-container']"), "P17"))
+		{
+			Assert.assertTrue(true,"Tooltip displayed correctly after hovering on 1st RadioControl");
+		}
+		else
+		{
+			Assert.assertTrue(false,"Tooltip does not display correctly after hovering on 1st RadioControl "+TooltipText);
+		}		
+	
+		RadioControl.HoverElement(By.id("asdfa"));
+		Utilities.Delay(5000);
+		/////String Tooltip=TableControlRuntimeProperties.getText(By.cssSelector("div[id='cdk-describedby-message-2']"));
+		/////System.out.println(Tooltip);
+		TooltipText=RadioControl.getText(By.cssSelector(WebTest.WebClient_dict.get("TooltipControlTag")+"[class='"+WebTest.WebClient_dict.get("TooltipControlClass")+"']"));
+		System.out.println(TooltipText);
+		if(TooltipText.equals("This is by Expresssion editor"))
+		/////if(TableControlRuntimeProperties.CompareElementPicture(By.cssSelector("div[class='cdk-overlay-container']"), "P17"))
+		{
+			Assert.assertTrue(true,"Tooltip displayed correctly after hovering on 2nd RadioControl");
+		}
+		else
+		{
+			Assert.assertTrue(false,"Tooltip does not display correctly after hovering on 2nd RadioControl "+TooltipText);
+		}
+	
+	}	
+	
+	@Test(priority=13)
+	public void P14()
+	{
+		RadioControl.PrgCall("P14");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		
+		if(RadioControl.IsElementPresent(By.id("d")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("d"));
+			System.out.println(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText());
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 1st RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 1st RadioControl is not shown correctly");
+			}	
+			
+		}	
+		
+		if(RadioControl.IsElementPresent(By.id("sdfsa")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("sdfsa"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 2nd RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 2nd RadioControl is not shown correctly");
+			}	
+			
+		}
+		if(RadioControl.IsElementPresent(By.id("sdad")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("sdad"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 3rd RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 3rd RadioControl is not shown correctly");
+			}	
+			
+		}
+		
+	}	
+
+	@Test(priority=14)
+	public void P15()
+	{
+		RadioControl.PrgCall("P15");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		
+		if(RadioControl.IsElementPresent(By.id("saSDSAD")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("saSDSAD"));
+			System.out.println(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText());
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 1st RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 1st RadioControl is not shown correctly");
+			}	
+			
+		}	
+		
+		if(RadioControl.IsElementPresent(By.id("DSADS")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("DSADS"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 2nd RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 2nd RadioControl is not shown correctly");
+			}	
+			
+		}
+		if(RadioControl.IsElementPresent(By.id("SADDSAD")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("SADDSAD"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio Option"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 3rd RadioControl is shown correctly");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 3rd RadioControl is not shown correctly");
+			}	
+			
+		}
+		
+	}	
+
+
+	@Test(priority=15)
+	public void P16()
+	{
+		RadioControl.PrgCall("P16");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		/////WebElement RadioButton;
+		
+		if(RadioControl.IsElementPresent(By.id("a")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("a"));
+			System.out.println(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText());
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("Radio"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 1st RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 1st RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}	
+		
+		if(RadioControl.IsElementPresent(By.id("b")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("b"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("123"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 2nd RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 2nd RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		if(RadioControl.IsElementPresent(By.id("c")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("c"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("abc"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 3rd RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 3rd RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		
+		
+		if(RadioControl.IsElementPresent(By.id("d")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("d"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("True")&&RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")).getText().equals("False"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 4th RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 4th RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+	}	
+	@Test(priority=16)
+	public void P17()
+	{
+		Utilities.Delay(2000);
+		RadioControl.PrgCall_AfterPageRefresh("P17");
+		Utilities.Delay(2000);
+		RadioControl.ClickElement(By.xpath("//"+RadioControl.WebClient_dict.get(RadioControl.WebClient_Locator_String_ToTokens_Dict.get("ButtonClass").toString()).toString()+"[contains(text(),'Run')]"));
+		Utilities.Delay(2000);
+		SearchContext RadioGroup = null;
+		RadioGroup=RadioControl.getWebElement(By.id("a"));
+		WebElement RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		RadioButton.click();
+		/////if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("checked"))
+		if(RadioControl.getAttribute(RadioButton,"class").contains("checked"))
+		{
+			
+			Assert.assertTrue(true, "Radio control gets selected after clicking");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control does not get selected after clicking");
+		}
+		
+		Utilities.Delay(3000);
+		
+		RadioGroup=RadioControl.getWebElement(By.id("b"));
+		RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		RadioButton.click();
+		/////if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("checked"))
+		Utilities.Delay(3000);
+		if(RadioControl.getAttribute(RadioButton,"class").contains("checked")==false)
+		{
+			
+			Assert.assertTrue(true, "Radio control does not gets selected after clicking,if Modifiable is set to FALSE");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control gets selected after clicking,EVEN if Modifiable is set to FALSE");
+		}
+	}
+	
+	@Test(priority=17)
+	public void P18()
+	{
+		RadioControl.PrgCall("P18");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		WebElement RadioButton;
+		
+		if(RadioControl.IsElementPresent(By.id("d_0001")))
+		{	
+			RadioGroup=RadioControl.getWebElement(By.id("d_0001"));
+			System.out.println(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText());
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("KK")&&RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")).getText().equals("BB"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 1st RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 1st RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		else
+		{
+			Assert.assertTrue(false, "1st Radio Control is not shown if Model is attached");
+			
+		}	
+		
+		if(RadioControl.IsElementPresent(By.id("aa")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("aa"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("AA")&&RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")).getText().equals("CC"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 2nd RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 2nd RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		else
+		{
+			Assert.assertTrue(false, "2nd Radio Control is not shown if Model is attached");
+			
+		}
+		
+		if(RadioControl.IsElementPresent(By.id("ddc")))
+		{
+			RadioGroup=RadioControl.getWebElement(By.id("ddc"));
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("KBH")&&RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")).getText().equals("SRK"))
+			{
+				
+				Assert.assertTrue(true, "Radio Control text for 3rd RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "Radio Control text for 3rd RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		else
+		{
+			Assert.assertTrue(false, "3rd Radio Control is not shown if Model is attached");
+			
+		}
+	
+		RadioGroup=RadioControl.getWebElement(By.id("ddc"));
+		RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+		RadioButton.click();
+		/////if(RadioControl.getAttribute(RadioGroup.findElement(By.xpath("./"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")),"class").contains("checked"))
+		if(RadioControl.getAttribute(RadioButton,"class").contains("checked")==false)
+		{
+			
+			Assert.assertTrue(true, "Radio control does not gets selected after clicking,if Modifiable is set to FALSE");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "Radio control gets selected after clicking,EVEN if Modifiable is set to FALSE");
+		}
+	
+	}	
+
+
+
+
+	@Test(priority=18)
+	public void P19()
+	{
+		RadioControl.PrgCall("P19");
+		SearchContext RadioGroup;
+		/////By by;
+		/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+		RadioGroup=RadioControl.getWebElement(By.id("sss"));
+		WebElement RadioButton;
+		int i;
+		for(i=3;i<=11;i++)
+		{	
+			System.out.println(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))));
+			if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp "+(i-2)))
+			{
+			
+				Assert.assertTrue(true, "1st Radio control text displays correctly if Model is attached");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "1st Radio control text does not display correctly if Model is attached");
+			}	
+		}
+		//Checked EMP10
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"["+i+"]"))).equals("Emp"+(i-2)))
+		{
+		
+			Assert.assertTrue(true, "1st Radio control text displays correctly if Model is attached");
+		}	
+		else
+		{
+			Assert.assertTrue(false, "1st Radio control text does not display correctly if Model is attached");
+		}	
+		
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"))).equals("kk"))
+		{
+			Assert.assertTrue(true, "1st Radio control text displays correctly if Model is attached");
+		}
+		else
+		{
+			Assert.assertTrue(false, "1st Radio control text does not display correctly if Model is attached");
+		}	
+
+		if(RadioControl.getText(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"))).equals("bb"))
+		{
+			Assert.assertTrue(true, "1st Radio control text displays correctly if Model is attached");
+		}
+		else
+		{
+			Assert.assertTrue(false, "1st Radio control text does not display correctly if Model is attached");
+		}	
+
+		
+		if(RadioControl.IsElementPresent(By.id("tt1")))
+		{	
+			RadioGroup=RadioControl.getWebElement(By.id("tt1"));
+			System.out.println(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText());
+			if(RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]")).getText().equals("KBH")&&RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]")).getText().equals("SRK"))
+			{
+				
+				Assert.assertTrue(true, "2nd Radio Control text for 1st RadioControl is shown correctly if Default Value is attched");
+			}
+			else
+			{
+				Assert.assertTrue(false, "2nd Radio Control text for 1st RadioControl is not shown correctly if Default Value is attched");
+			}	
+			
+		}
+		else
+		{
+			Assert.assertTrue(false, "2nd Radio Control is not shown if Model is attached");
+			
+		}	
+		
+	}	
+		
+		@Test(priority=19)
+		public void P20()
+		{
+			RadioControl.PrgCall("P20");
+			SearchContext RadioGroup;
+			/////By by;
+			/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+			RadioGroup=RadioControl.getWebElement(By.id("dd"));
+			WebElement RadioButton;
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Group7")))==false)
+			{
+				Assert.assertTrue(true,"GroupBox became invisible after clicking on True RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"GroupBox became Visible after clicking on True RadioButton");
+			}
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("adsfdsa")))==false)
+			{
+				Assert.assertTrue(true,"CheckBox became invisible after clicking on True RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"CheckBox became Visible after clicking on True RadioButton");
+			}
+
+			
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Button6")))==false)
+			{
+				Assert.assertTrue(true,"PushButton became invisible after clicking on True RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"PushButton became Visible after clicking on True RadioButton");
+			}
+		
+
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Group7")))==true)
+			{
+				Assert.assertTrue(true,"GroupBox became Visible after clicking on FALSE RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"GroupBox became InVisible after clicking on FALSE RadioButton");
+			}
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("adsfdsa")))==true)
+			{
+				Assert.assertTrue(true,"CheckBox became Visible after clicking on FALSE RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"CheckBox became InVisible after clicking on FALSE RadioButton");
+			}
+
+			
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Button6")))==true)
+			{
+				Assert.assertTrue(true,"PushButton became Visible after clicking on FALSE RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"PushButton became InVisible after clicking on FALSE RadioButton");
+			}
+
+		
+		}	
+
+
+		@Test(priority=20)
+		public void P21()
+		{
+			RadioControl.PrgCall("P21");
+			SearchContext RadioGroup;
+			/////By by;
+			/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+			RadioGroup=RadioControl.getWebElement(By.id("k"));
+			WebElement RadioButton;
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Button4")))==false)
+			{
+				Assert.assertTrue(true,"ButtonControl became invisible after clicking on True RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"ButtonControl became Visible after clicking on True RadioButton");
+			}
+
+			
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("Button4")))==true)
+			{
+				Assert.assertTrue(true,"ButtonControl became Visible after clicking on FALSE RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"ButtonControl became InVisible after clicking on FALSE RadioButton");
+			}
+
+			
+
+		
+		}	
+		@Test(priority=21)
+		public void P22()
+		{
+			
+			Assert.assertTrue(true,"Help can not be opened in Runtime as pressing F1 invokes Browser help hence TestCase is not Applicable");
+		}
+
+		
+		@Test(priority=22)
+		public void P23()
+		{
+			RadioControl.PrgCall("P23");
+			
+			if(RadioControl.CompareElementPicture(By.id("StylesTest"), "P23"))
+			{
+				
+				Assert.assertTrue(true, "RadioControl displays correctly");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "RadioControl does not display correctly");
+			}
+		}
+
+		@Test(priority=23)
+		public void P24()
+		{
+			RadioControl.PrgCall("P24");
+			
+			if(RadioControl.CompareElementPicture(By.id("StylesTest"), "P24"))
+			{
+				
+				Assert.assertTrue(true, "RadioControl displays correctly if placed in Subform");
+			}	
+			else
+			{
+				Assert.assertTrue(false, "RadioControl does not display correctly if placed in Subform");
+			}
+		}
+
+
+		@Test(priority=24)
+		public void P25()
+		{
+			RadioControl.PrgCall("P25");
+			SearchContext RadioGroup;
+			/////By by;
+			/////by=By.xpath(RadioControl.WebClient_dict.get("RadioButtonControlClass").toString());
+			RadioGroup=RadioControl.getWebElement(By.id("dd"));
+			WebElement RadioButton;
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[1]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("adsfdsa")))==false)
+			{
+				Assert.assertTrue(true,"Checkbox became invisible after clicking on True RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"Checkbox became Visible after clicking on True RadioButton");
+			}
+
+			
+			RadioButton=RadioGroup.findElement(By.xpath(".//"+RadioControl.WebClient_dict.get("RadioButtonControlClass").toString()+"[2]"));
+			RadioButton.click();
+			Utilities.Delay(3000);
+	
+
+			if(RadioControl.isDisplayed(RadioControl.getWebElement(By.id("adsfdsa")))==true)
+			{
+				Assert.assertTrue(true,"Checkbox became Visible after clicking on FALSE RadioButton");
+				
+			}	
+			
+			else
+			{
+				
+	 			Assert.assertTrue(false,"Checkbox became InVisible after clicking on FALSE RadioButton");
+			}
+
+			
+
+		
+		}	
+
+}	
+
