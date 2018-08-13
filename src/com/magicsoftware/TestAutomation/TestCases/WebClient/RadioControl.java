@@ -18,6 +18,6 @@ import com.magicsoftware.WebAutomation.Utils.Utilities.SelectBy;
 public class RadioControl
 {
 	
-
+int a;
 }	
 
