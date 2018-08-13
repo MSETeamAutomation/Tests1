@@ -19,5 +19,6 @@ public class RadioControl
 {
 	
 int a;
+int b;
 }	
 
